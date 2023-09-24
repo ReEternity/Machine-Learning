@@ -39,7 +39,7 @@ def main():
         # If a file is uploaded, process and display predictions
         if uploaded_file is not None:
             try:
-              df = pd.read_csv(uploaded_file)
+              df = pd.read_csv(uploaded_file, sep=",")
             except Exception as e:
                 st.error("Error: Invalid CSV file. Please upload a valid CSV file.")
             # Display the uploaded data
