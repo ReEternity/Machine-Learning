@@ -18,20 +18,22 @@ def main():
         # st.image("IMAGE_PATH")
         st.title("SIDE_BAR_TITLE")
         choice = st.radio(
-            "Menu", ["Home", "Single GPA Prediction"])
+            "Menu", ["Home", "Single Score Prediction"])
         st.info(
-            "PROJECT_DESCRIPTION")
+            "This project uses linear regression to try and predict how a person's gender, ethinicity, parental level of education, lunch determine their writing score")
     
     # Now lets add content to each sub-page of your site
     if choice == "Home":
         # Add a title and some text to the app:
-        st.title("Ultimate GPA Predictor")
-        st.write("See what your writing score would be.")
+        st.title("Ultimate Score Predictor")
+        st.write("See what your writing score would be. It's FREE, so why not.")
+        image = st.image("CHATGPT.png", caption="This is a natural langauge AI carrying us through this project.", use_column_width=True)
+        st.image()
 
-    elif choice == "Single GPA Prediction":
+    elif choice == "YOUR Writing Score Prediction":
         # Add a title and some text to the app:
         st.title("Batch Prediction")
-        st.write("Upload a CSV file and see live predictions.")
+        st.write("Upload a CSV file and see live predictions. :)")
 
         # Add a file uploader to upload a CSV file
         uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
