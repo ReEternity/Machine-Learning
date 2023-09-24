@@ -46,14 +46,14 @@ def main():
                 st.error("Error: Invalid CSV file. Please upload a valid CSV file.")
             # Display the uploaded data
             st.subheader("Input Data")
-            st.dataframe(df, use_container_width=True)
+            st.dataframe(df, use_column_width=True)
 
             # Perform predictions on the uploaded data
             predictions = _batchPredict(df)
 
             # Display the prediction results
             st.subheader("Prediction Results")
-            st.dataframe(predictions, use_container_width=True)
+            st.dataframe(predictions, use_column_width=True)
 
 # Define your model prediction function here
 # For example:
