@@ -18,7 +18,7 @@ def main():
         # st.image("IMAGE_PATH")
         st.title("Navigate Here!")
         choice = st.radio(
-            "Menu", ["Home", "Single Score Prediction"])
+            "Menu", ["Home", "Your Writing Score Prediction"])
         st.info(
             "This project uses linear regression to try and predict how a person's gender, ethinicity, parental level of education, lunch determine their writing score")
     
@@ -27,10 +27,10 @@ def main():
         # Add a title and some text to the app:
         st.title("Ultimate Score Predictor")
         st.write("See what your writing score would be. It's FREE, so why not.")
-        image = st.image("Model/CHATGPT.png", caption="This is a natural langauge AI carrying us through this project. Shout out to the staffs too", use_column_width=True)
+        image = st.image("Model/CHATGPT.png", caption="This is a natural langauge AI carrying us through this project. \nShout out to the staffs too.", use_column_width=True)
         
 
-    elif choice == "YOUR Writing Score Prediction":
+    elif choice == "Your Writing Score Prediction":
         # Add a title and some text to the app:
         st.title("Batch Prediction")
         st.write("Upload a CSV file and see live predictions. :)")
