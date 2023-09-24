@@ -48,6 +48,8 @@ def main():
             st.subheader("Input Data")
             st.write(df, use_container_width=True)
 
+            image = st.image("Model/image.png", caption="This is the key to match the data input", use_column_width=True)
+
             # Perform predictions on the uploaded data
             predictions = _batchPredict(df)
 
