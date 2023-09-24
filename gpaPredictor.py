@@ -72,7 +72,7 @@ def _batchPredict(df):
     predictions = model.predict(df)
 
     # Predictions DF
-    dfPredictions = pd.DataFrame(predictions, columns=(["Writing score"]))
+    dfPredictions = pd.DataFrame(predictions, columns=(["Your score"]))
 
     # Make sure to return the prediction results
     return dfPredictions
