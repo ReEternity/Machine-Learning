@@ -16,7 +16,7 @@ def main():
     # (Optional) Set a sidebar for your app.
     with st.sidebar:
         # st.image("IMAGE_PATH")
-        st.title("SIDE_BAR_TITLE")
+        st.title("Navigate Here!")
         choice = st.radio(
             "Menu", ["Home", "Single Score Prediction"])
         st.info(
