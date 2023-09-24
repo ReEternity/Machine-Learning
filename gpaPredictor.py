@@ -27,7 +27,7 @@ def main():
         # Add a title and some text to the app:
         st.title("Ultimate Score Predictor")
         st.write("See what your writing score would be. It's FREE, so why not.")
-        image = st.image("Model/CHATGPT.png", caption="This is a natural langauge AI carrying us through this project.", use_column_width=True)
+        image = st.image("Model/CHATGPT.png", caption="This is a natural langauge AI carrying us through this project. Shout out to the staffs too", use_column_width=True)
         
 
     elif choice == "YOUR Writing Score Prediction":
