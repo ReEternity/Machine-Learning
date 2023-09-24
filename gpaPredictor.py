@@ -61,7 +61,7 @@ def main():
 def _batchPredict(df):
     # Format the dataframe so that you can pass it to the model
     # For example:
-    df = df[["gender", "race/ethnicity", "parental level of education", "lunch", "test preparation course", "math score", "reading score"]]
+    df = df[["gender", "race/ethnicity", "parental level of education", "lunch", "test preparation course"]]
 
     # Call your model to make predictions on the dataframe
     # For example:
