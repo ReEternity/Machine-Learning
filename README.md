@@ -11,4 +11,6 @@ Vice versa, if the analysis shows that some groups of students consistently get 
 This is the example dataset used to train the Artifical Intelligence.
 https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams?resource=download
 
+App Link: https://gpapredictor.streamlit.app/
+
 # Machine-Learning
